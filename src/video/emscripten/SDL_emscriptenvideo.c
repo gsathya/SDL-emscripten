@@ -132,7 +132,7 @@ Emscripten_VideoInit(_THIS)
     int is_fullscreen;
 
     /* Use a fake 32-bpp desktop mode */
-    mode.format = SDL_PIXELFORMAT_RGB888;
+    mode.format = SDL_PIXELFORMAT_BGR888;
 
     emscripten_get_canvas_size(&mode.w, &mode.h, &is_fullscreen);
 
